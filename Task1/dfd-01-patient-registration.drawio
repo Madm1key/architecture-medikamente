@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="2">
+<mxfile host="app.diagrams.net">
   <diagram id="asis-01" name="As-Is: Регистрация пациента">
     <mxGraphModel dx="1414" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -7,87 +7,42 @@
         <mxCell id="2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#555555;fontStyle=1;fontSize=12;" value="Пациент" vertex="1">
           <mxGeometry height="60" width="130" x="60" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="P1: Регистрация&#xa;пациента&#xa;(ресепшен)" vertex="1">
+        <mxCell id="KIl00C9zGS4OZjSgaMMX-13" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=default;labelBackgroundColor=default;endArrow=classic;fillColor=#d5e8d4;" target="0b9Is-7OQrtbemNBIfac-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Регистрация&lt;br&gt;пациента&lt;br&gt;(ресепшен)" vertex="1">
           <mxGeometry height="90" width="170" x="190" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="4" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="D1: Карточки пациентов&#xa;(Excel, общий диск)" vertex="1">
+        <mxCell id="4" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Карточки пациентов&lt;br&gt;[Шифрование БД: AES-256]" vertex="1">
           <mxGeometry height="60" width="220" x="510" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="5" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="D2: Журнал записей&#xa;(Excel, общий диск)" vertex="1">
-          <mxGeometry height="60" width="220" x="510" y="240" as="geometry" />
+        <mxCell id="5" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Журнал записей&lt;br&gt;[Шифрование БД: AES-256]" vertex="1">
+          <mxGeometry height="60" width="220" x="510" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="10" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="3" value="ФИО, ДР, телефон, email,&lt;br&gt;адрес, место работы,&lt;br&gt;хронические заболевания">
+        <mxCell id="10" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="3" value="ФИО, ДР, телефон, email,&lt;br&gt;адрес, место работы,&lt;br&gt;хронические заболевания&lt;br&gt;[Шифрование TLS 1.3]">
           <mxGeometry relative="1" x="-0.2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="11" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#FF0000;fontColor=#CC0000;" target="4" value="Данные пациента&#xa;(без шифрования ⚠)">
-          <mxGeometry relative="1" x="0.0732" as="geometry">
+        <mxCell id="11" edge="1" parent="1" source="3" style="html=1;fontSize=9;strokeColor=#000000;fontColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fillColor=#d5e8d4;edgeStyle=orthogonalEdgeStyle;" target="4" value="">
+          <mxGeometry relative="1" x="0.1707" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="12" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#FF0000;fontColor=#CC0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5" value="Запись на приём&#xa;(без шифрования ⚠)">
+        <mxCell id="12" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#000000;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=1;align=center;verticalAlign=middle;fontFamily=Helvetica;labelBackgroundColor=default;endArrow=classic;fillColor=#d5e8d4;" target="5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="13" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;" target="2" value="Подтверждение записи">
-          <mxGeometry relative="1" x="-0.5049" as="geometry">
+        <mxCell id="13" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;" target="2" value="Подтверждение записи&lt;br&gt;[Шифрование TLS 1.3]">
+          <mxGeometry relative="1" x="-0.5553" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="280" y="390" />
-              <mxPoint x="125" y="390" />
+              <mxPoint x="280" y="350" />
+              <mxPoint x="125" y="350" />
             </Array>
           </mxGeometry>
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="tobe-01" name="To-Be: Регистрация пациента">
-    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <!-- External Entities -->
-        <mxCell id="2" value="Пациент" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#555555;fontStyle=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="60" y="230" width="130" height="60" as="geometry" />
-        </mxCell>
-        <!-- Processes -->
-        <mxCell id="3" value="P1: Регистрация пациента&#xa;[RBAC: роль Ресепшен]&#xa;[MFA для входа]&#xa;[Audit: все операции]" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="260" y="200" width="190" height="100" as="geometry" />
-        </mxCell>
-        <!-- Data Stores - secured -->
-        <mxCell id="4" value="D1: CRM / PostgreSQL&#xa;[Шифрование at-rest: AES-256]&#xa;[Tag: PII_BASIC, PII_EXTENDED]&#xa;[RLS: только роль Ресепшен]" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="560" y="140" width="260" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="5" value="D2: Система записей / PostgreSQL&#xa;[Шифрование at-rest: AES-256]&#xa;[Tag: APPOINTMENT]" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="560" y="300" width="260" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="6" value="D3: Журнал аудита&#xa;[immutable log, хранение 5 лет]" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="260" y="390" width="240" height="60" as="geometry" />
-        </mxCell>
-        <!-- Data Flows - secured -->
-        <mxCell id="10" value="ФИО, ДР, телефон, email&#xa;[TLS 1.3]&#xa;[Tag: PII_BASIC]" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#0066CC;fontColor=#004499;" edge="1" source="2" target="3" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="11" value="Данные пациента [зашифровано]&#xa;[Tag: PII_BASIC, PII_EXTENDED]" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#006600;fontColor=#004400;" edge="1" source="3" target="4" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="12" value="Запись [зашифровано]&#xa;[Tag: APPOINTMENT]" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#006600;fontColor=#004400;" edge="1" source="3" target="5" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="13" value="Событие аудита" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#9673a6;" edge="1" source="3" target="6" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="14" value="Подтверждение [TLS 1.3]" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#0066CC;fontColor=#004499;" edge="1" source="3" target="2" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="355" y="460" />
-              <mxPoint x="125" y="460" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <!-- Security measures note -->
-        <mxCell id="20" value="✅ Меры безопасности (To-Be):&#xa;[TLS 1.3] Шифрование всех передач данных&#xa;[AES-256] Шифрование хранилища at-rest&#xa;[RBAC] Роль &quot;Ресепшен&quot;: только PII_BASIC + APPOINTMENT&#xa;[Audit] Каждое обращение к ПД фиксируется в D3&#xa;[Data Minimization] Сбор только необходимых данных" style="text;html=1;strokeColor=#006600;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=8;spacingRight=8;overflow=hidden;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="560" y="430" width="420" height="110" as="geometry" />
+        <mxCell id="0b9Is-7OQrtbemNBIfac-13" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Журнал аудита" vertex="1">
+          <mxGeometry height="60" width="220" x="510" y="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
