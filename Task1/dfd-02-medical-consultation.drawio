@@ -1,138 +1,105 @@
-<mxfile host="app.diagrams.net" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" version="29.6.3">
   <diagram id="asis-02" name="As-Is: Медицинская консультация">
-    <mxGraphModel dx="1414" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#555555;fontStyle=1;fontSize=12;" value="Пациент" vertex="1">
-          <mxGeometry height="60" width="130" x="30" y="240" as="geometry" />
+          <mxGeometry height="60" width="130" x="80" y="414" as="geometry" />
         </mxCell>
         <mxCell id="3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#555555;fontStyle=1;fontSize=11;" value="Врач / Медицинский&#xa;специалист" vertex="1">
-          <mxGeometry height="60" width="130" x="30" y="95" as="geometry" />
+          <mxGeometry height="60" width="130" x="80" y="271" as="geometry" />
         </mxCell>
-        <mxCell id="10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="P2.1: Получение&#xa;медицинской карты" vertex="1">
-          <mxGeometry height="70" width="160" x="270" y="90" as="geometry" />
+        <mxCell id="4cXIYHQsVtDQoq3mNFkj-38" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="2UQsLdxxFRU8yIQHLu7i-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="326" />
+              <mxPoint x="570" y="530" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="P2.2: Проведение&#xa;консультации" vertex="1">
-          <mxGeometry height="70" width="160" x="270" y="235" as="geometry" />
+        <mxCell id="4cXIYHQsVtDQoq3mNFkj-39" connectable="0" parent="4cXIYHQsVtDQoq3mNFkj-38" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=9;fontColor=default;labelBackgroundColor=default;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.6074" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="P2.3: Обновление&#xa;медицинской карты" vertex="1">
-          <mxGeometry height="70" width="160" x="270" y="375" as="geometry" />
+        <mxCell id="10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="Получение&lt;br&gt;медицинской карты" vertex="1">
+          <mxGeometry height="70" width="160" x="380" y="266" as="geometry" />
         </mxCell>
-        <mxCell id="20" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="D1: Медицинские карты&#xa;(Excel/PDF/JPG, общий диск)" vertex="1">
-          <mxGeometry height="60" width="230" x="690" y="40" as="geometry" />
+        <mxCell id="11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="Проведение&lt;br&gt;консультации" vertex="1">
+          <mxGeometry height="70" width="160" x="380" y="409" as="geometry" />
         </mxCell>
-        <mxCell id="21" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="D3: Результаты анализов&lt;br&gt;(PDF/JPG, общий диск)" vertex="1">
-          <mxGeometry height="60" width="230" x="690" y="240" as="geometry" />
+        <mxCell id="4cXIYHQsVtDQoq3mNFkj-37" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="2UQsLdxxFRU8yIQHLu7i-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="561" />
+              <mxPoint x="570" y="530" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="22" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="D2: Журнал записей&lt;br&gt;(Excel, общий диск)" vertex="1">
-          <mxGeometry height="60" width="230" x="690" y="130" as="geometry" />
+        <mxCell id="12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="Обновление&lt;br&gt;медицинской карты" vertex="1">
+          <mxGeometry height="70" width="160" x="380" y="551" as="geometry" />
         </mxCell>
-        <mxCell id="30" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;" target="11" value="Жалобы, симптомы">
+        <mxCell id="20" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Карточки пациентов&lt;br&gt;[Шифрование БД: AES-256]" vertex="1">
+          <mxGeometry height="60" width="230" x="800" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Результаты анализов&lt;div&gt;[Шифрование БД: AES-256]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="230" x="800" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Журнал записей&lt;br&gt;[Шифрование БД: AES-256]" vertex="1">
+          <mxGeometry height="60" width="230" x="800" y="306" as="geometry" />
+        </mxCell>
+        <mxCell id="30" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;" target="11" value="Жалобы, симптомы&lt;div&gt;[Шифрование TLS 1.3]&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="31" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#FF0000;fontColor=#CC0000;" target="10" value="Запрос карты пациента&#xa;(нет контроля доступа ⚠)">
+        <mxCell id="31" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=default;fontColor=default;rounded=1;align=center;verticalAlign=middle;fontFamily=Helvetica;labelBackgroundColor=default;endArrow=classic;" target="10" value="Запрос карты пациента&lt;br&gt;[Шифрование TLS 1.3]">
           <mxGeometry relative="1" y="25" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="32" edge="1" parent="1" source="20" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#FF0000;fontColor=#CC0000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="10" value="Данные карты (незашифровано ⚠)&#xa;[SPD_HEALTH — критично!]">
+        <mxCell id="32" edge="1" parent="1" source="20" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=default;fontColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=1;align=center;verticalAlign=middle;fontFamily=Helvetica;labelBackgroundColor=default;endArrow=classic;" target="10" value="">
+          <mxGeometry relative="1" x="-0.0909" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="915" y="190" />
+              <mxPoint x="460" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="68mesMHnsVdonHA0zzvd-38" connectable="0" parent="32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=9;fontColor=default;labelBackgroundColor=default;" value="[Динамическая маскировка]" vertex="1">
+          <mxGeometry relative="1" x="0.0374" as="geometry">
+            <mxPoint x="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=default;fontColor=default;rounded=1;align=center;verticalAlign=middle;fontFamily=Helvetica;labelBackgroundColor=default;endArrow=classic;" target="11" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="33" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#FF0000;fontColor=#CC0000;" target="11" value="Карта передана врачу&#xa;(незашифровано ⚠)">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="34" edge="1" parent="1" source="21" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#FF0000;fontColor=#CC0000;" target="11" value="Результаты анализов&#xa;(незашифровано ⚠)">
+        <mxCell id="34" edge="1" parent="1" source="21" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=default;fontColor=default;rounded=1;align=center;verticalAlign=middle;fontFamily=Helvetica;labelBackgroundColor=default;endArrow=classic;" target="11" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="35" edge="1" parent="1" source="11" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;" target="12" value="Новые записи, диагноз,&#xa;назначения">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="36" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#FF0000;fontColor=#CC0000;" target="20" value="Обновлённая карта&#xa;(незашифровано ⚠)">
-          <mxGeometry relative="1" x="0.2131" as="geometry">
+        <mxCell id="36" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=default;fontColor=default;rounded=1;align=center;verticalAlign=middle;fontFamily=Helvetica;labelBackgroundColor=default;endArrow=classic;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="20" value="">
+          <mxGeometry relative="1" x="-0.4235" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="610" y="410" />
-              <mxPoint x="610" y="60" />
+              <mxPoint x="1120" y="586" />
+              <mxPoint x="1120" y="250" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="37" edge="1" parent="1" source="22" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="10" value="Данные о записи">
-          <mxGeometry relative="1" x="-0.1864" as="geometry">
+        <mxCell id="37" edge="1" parent="1" source="22" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="10" value="">
+          <mxGeometry relative="1" x="-0.3898" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="500" y="160" />
-              <mxPoint x="500" y="125" />
+              <mxPoint x="620" y="336" />
+              <mxPoint x="620" y="301" />
             </Array>
           </mxGeometry>
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="tobe-02" name="To-Be: Медицинская консультация">
-    <mxGraphModel dx="1414" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#555555;fontStyle=1;fontSize=12;" value="Пациент" vertex="1">
-          <mxGeometry height="60" width="130" x="60" y="100" as="geometry" />
-        </mxCell>
-        <mxCell id="3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#555555;fontStyle=1;fontSize=11;" value="Врач / Медицинский&#xa;специалист" vertex="1">
-          <mxGeometry height="60" width="130" x="60" y="320" as="geometry" />
-        </mxCell>
-        <mxCell id="10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" value="P2.1: Доступ к карте&#xa;[RBAC: только лечащий врач]&#xa;[ABAC: только свои пациенты]&#xa;[MFA обязателен]" vertex="1">
-          <mxGeometry height="90" width="190" x="260" y="80" as="geometry" />
-        </mxCell>
-        <mxCell id="11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="P2.2: Консультация&#xa;[Audit: все просмотры]" vertex="1">
-          <mxGeometry height="70" width="190" x="860" y="160" as="geometry" />
-        </mxCell>
-        <mxCell id="12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="P2.3: Обновление карты&#xa;[Audit: все изменения + diff]" vertex="1">
-          <mxGeometry height="70" width="190" x="260" y="370" as="geometry" />
-        </mxCell>
-        <mxCell id="20" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="D1: Медицинские карты / PostgreSQL&#xa;[Шифрование: AES-256 at-rest]&#xa;[Tag: SPD_HEALTH, sensitivity:critical]&#xa;[RLS: врач видит только своих пациентов]" vertex="1">
-          <mxGeometry height="80" width="300" x="690" y="-180" as="geometry" />
-        </mxCell>
-        <mxCell id="21" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="D2: Результаты анализов&#xa;[Шифрование: AES-256 at-rest]&#xa;[Tag: SPD_LAB, sensitivity:critical]" vertex="1">
-          <mxGeometry height="70" width="270" x="560" y="260" as="geometry" />
-        </mxCell>
-        <mxCell id="23" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" value="D3: Журнал аудита&#xa;[immutable, хранение 25 лет по 323-ФЗ]" vertex="1">
-          <mxGeometry height="60" width="260" x="260" y="510" as="geometry" />
-        </mxCell>
-        <mxCell id="30" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#0066CC;fontColor=#004499;" target="11" value="Жалобы, симптомы [TLS]">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="31" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#0066CC;fontColor=#004499;" target="10" value="Запрос карты (аутентифицирован + MFA)">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="32" edge="1" parent="1" source="20" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#006600;fontColor=#004400;" target="10" value="Данные карты [зашифровано TLS]&#xa;[только своего пациента]">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="33" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#006600;fontColor=#004400;" target="11" value="Карта врачу [TLS, аудит чтения]">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="34" edge="1" parent="1" source="21" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#006600;fontColor=#004400;" target="11" value="Анализы [TLS, аудит чтения]">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="35" edge="1" parent="1" source="11" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#0066CC;" target="12" value="Диагноз, назначения [TLS]">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="36" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#006600;fontColor=#004400;" target="20" value="Обновление [зашифровано, diff в аудит]">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="450" y="405" />
-              <mxPoint x="450" y="130" />
-              <mxPoint x="560" y="130" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="37" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#9673a6;" target="23" value="Событие аудита (read/write)">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="38" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=#9673a6;" target="23" value="Событие аудита (update)">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="40" parent="1" style="text;html=1;strokeColor=#006600;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=8;spacingRight=8;overflow=hidden;fontSize=10;" value="✅ Меры безопасности (To-Be):&#xa;[ABAC] PostgreSQL RLS: врач видит только карты своих пациентов&#xa;[MFA] Обязательный второй фактор для доступа к SPD_HEALTH&#xa;[Audit] Каждое чтение и изменение карты = запись в D3&#xa;[AES-256] Медицинские данные зашифрованы at-rest&#xa;[Хранение] Аудит-лог 25 лет (323-ФЗ о медицинской тайне)" vertex="1">
-          <mxGeometry height="110" width="430" x="560" y="400" as="geometry" />
+        <mxCell id="2UQsLdxxFRU8yIQHLu7i-37" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Журнал аудита" vertex="1">
+          <mxGeometry height="60" width="220" x="805" y="500" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
