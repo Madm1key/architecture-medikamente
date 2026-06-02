@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36">
+  <diagram id="asis-05" name="As-Is: Аналитика и отчётность">
+    <mxGraphModel dx="1414" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#555555;fontStyle=1;fontSize=11;" value="Бизнес-аналитик" vertex="1">
+          <mxGeometry height="60" width="130" x="100" y="183.5" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Обработка данных&lt;br&gt;(Jupyter/Python)" vertex="1">
+          <mxGeometry height="75" width="160" x="405" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Формирование&lt;br&gt;отчётов" vertex="1">
+          <mxGeometry height="75" width="160" x="405" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Отчёты" vertex="1">
+          <mxGeometry height="60" width="240" x="740" y="337.5" as="geometry" />
+        </mxCell>
+        <mxCell id="30" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=default;fontColor=default;rounded=1;align=center;verticalAlign=middle;fontFamily=Helvetica;labelBackgroundColor=default;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="11" value="Запрос данных&lt;div&gt;[Шифрование TLS 1.3]&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="213.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" edge="1" parent="1" source="ZQAAe4piUKlgIvjKtK5O-36" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;strokeColor=default;fontColor=default;rounded=1;align=center;verticalAlign=middle;fontFamily=Helvetica;labelBackgroundColor=default;endArrow=classic;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="tQ1u_szICUSrRLn_SsRx-36" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="213.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34" edge="1" parent="1" source="11" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;" target="12" value="Агрегированные данные">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="35" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;" target="22" value="Отчёты сохраняются">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZQAAe4piUKlgIvjKtK5O-36" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="Исходные данные" vertex="1">
+          <mxGeometry height="66.43" width="230" x="745" y="51.07" as="geometry" />
+        </mxCell>
+        <mxCell id="Hnbk4wO7CxR25AeT9TSk-37" edge="1" parent="1" source="tQ1u_szICUSrRLn_SsRx-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Hnbk4wO7CxR25AeT9TSk-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FgXXtA--xOQpjzltTcGq-35" connectable="0" parent="Hnbk4wO7CxR25AeT9TSk-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="[Маскировка]" vertex="1">
+          <mxGeometry relative="1" x="-0.0894" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQ1u_szICUSrRLn_SsRx-36" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" value="ETL-пайплайн" vertex="1">
+          <mxGeometry height="78.57" width="150" x="410" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Hnbk4wO7CxR25AeT9TSk-38" edge="1" parent="1" source="Hnbk4wO7CxR25AeT9TSk-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hnbk4wO7CxR25AeT9TSk-36" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Data Lake" vertex="1">
+          <mxGeometry height="60" width="240" x="740" y="183.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
